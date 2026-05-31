@@ -9,3 +9,86 @@
   <p>Estação de rádio online, simples e direta.</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I.A.MUSIC RADIO</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #d4af37;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .card {
+      background-color: rgba(212, 175, 55, 0.05);
+      border: 1px solid #d4af37;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      color: #d4af37;
+    }
+    .tagline {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      color: #d4af37;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #d4af37;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+      color: #d4af37;
+    }
+    a.button {
+      display: block;
+      margin: 10px auto;
+      padding: 12px 20px;
+      background-color: #d4af37;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      width: 80%;
+      max-width: 300px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background-color: #bfa335;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>GUTTAO</h1>
+    <div class="tagline">RADIO</div>
+    <img src="https://imgur.com/ieVigoR.png" alt="IA" class="profile-pic">
+    <p></p>
+    <a href="https://orientconceptsite@gmail.com" class="button">memail I.A.Music</a>
+    <a href="https://iamusic.radio12345.com/" class="button" target="_blank">I.A.Music Radio 1</a>
+    <a href="https://iamusic.radiostream321.com/" class="button" target="_blank"> I.A.Music Radio 2</a>
+    <a href="https://umapenca.com/iamusic/" class="button" target="_blank">Loja</a>
+    
+  </div>
+</body>
+</html>
