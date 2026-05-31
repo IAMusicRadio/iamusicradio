@@ -97,7 +97,7 @@
       background: #222;
       border-radius: 15px;
       padding: 20px;
-      width: 350px;
+      width: 400px;
       margin: auto;
       box-shadow: 0 0 15px rgba(0,0,0,0.7);
     }
@@ -108,6 +108,12 @@
     audio {
       width: 100%;
       margin: 15px 0;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      margin-top: 20px;
     }
     .btn {
       background: #ff6600;
@@ -127,6 +133,8 @@
 <body>
   <div class="radio-box">
     <h1>🎶 Rádio IAMusic 🎶</h1>
+
+    <!-- PLAYER DE ÁUDIO (precisa do link de streaming real) -->
     <audio id="player" controls autoplay>
       <source src="https://iamusic.radio12345.com/stream.mp3" type="audio/mpeg">
       Seu navegador não suporta áudio.
@@ -134,7 +142,13 @@
     <br>
     <button class="btn" onclick="document.getElementById('player').play()">▶ Play</button>
     <button class="btn" onclick="document.getElementById('player').pause()">⏸ Pause</button>
+
+    <!-- SITE DA RÁDIO VIA IFRAME -->
+    <iframe src="https://iamusicradio.github.io/"></iframe>
   </div>
+</body>
+</html>
+
 </body>
 </html>
 
